@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    transition: .5s ease;
+    border-radius: 15px;
+}
+a:hover{
+   
+    background-color: black;
+    color: white;
+}
+a:hover #s{
+    opacity: 0;
+    visibility: visible;
+}
+
+.head{
+    border: 2px solid black;
+    background-color: #e3bd9c33;
+}
+.head:hover{
+    background-color: white;
+}
+.h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h2{
+    display: flex;
+    gap: 30px;
+}
+#s{
+    width: 30vw;
+    height: 50vh;
+    display: none;
+    background-color: teal;
+    border-radius: 20px;
+    align-content: center;
+    justify-items: center;
+}
+#a:hover + #s{
+    display: block;
+    position:absolute;
+    top: 80px;
+    left: 200px;
+    z-index: 1;
+}
+#b:hover + #s{
+    display: block;
+    position:absolute;
+    top: 80px;
+    left: 300px;
+    z-index: 1;
+}
+#c:hover + #s{
+    display: block;
+    position:absolute;
+    top: 80px;
+    left: 400px;
+    z-index: 1;
+}
+#d:hover + #s{
+    display: block;
+    position:absolute;
+    top: 80px;
+    left: 500px;
+    z-index: 1;
+}
+#s1{
+    width: 30vw;
+    height: 50vh;
+    display: none;
+}
+#e:hover + #s1{
+    display: block;
+    position:absolute;
+    top: 80px;
+    left: 600px;
+    z-index: 1;
+}
+#s11{
+    animation: x1 1s infinite;
+}
+#s12{
+    animation: x2 1s infinite;
+}
+@keyframes x1{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        scale: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes x2{
+    0%{
+        opacity: 1;
+        scale: 0.5;
+    }
+    50%{
+        opacity: 0;
+        scale: 1;
+    }
+    100%{
+        opacity: 1;
+        scale: 0.5;
+    }
+}
+.x{
+    height: 100vh;
+    width: 100%;
+    background-image: url(yucca-packaging-homepage-intro-plastic-cups-for-iced-chilled-drinks_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+}
+.x1{
+    font-size: 60px;
+    margin-left: 100px;
+    position: relative;
+    top: 100px;
+}
+.x21{
+    font-size: 40px;
+    font-weight: 900;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+}
+.x2{
+    display: flex;
+    gap: 100px;
+    margin: 150px 100px;
+}
+.x21{
+    opacity: 0.5;
+}
+#a1h{
+    display: none;
+}
+.y1:hover{
+    border-radius: 30px;
+    opacity: 1;
+    transition: 0.5s linear;
+    #a1h{
+        display: block;
+    }
+    #a1{
+        display: none;
+    }
+}
+.y2:hover{
+    border-radius: 30px;
+    opacity: 1;
+    transition: 0.5s linear;
+    #a1h{
+        display: block;
+    }
+    #a1{
+        display: none;
+    }
+}
+.y3:hover{
+    border-radius: 30px;
+    opacity: 1;
+    transition: 0.5s linear;
+    #a1h{
+        display: block;
+    }
+    #a1{
+        display: none;
+    }
+}
